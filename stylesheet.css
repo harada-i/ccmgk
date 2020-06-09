@@ -1,0 +1,32 @@
+head {
+  margin:0 0 ;
+}
+
+li {
+  height: 450px;
+  width: 450px;
+  list-style: none;
+  /* display: inline-flex; */
+  float:left;
+  background-color: beige;
+  margin:5px;
+}
+
+li a {
+  display:block;
+}
+
+ul {
+  flex-wrap:wrap;
+}
+
+.prf-bar {
+  background-color: skyblue;
+  height:1px;
+  width:8px;
+}
+
+li img {
+  height:250px;
+  width:400px;
+}
