@@ -1,22 +1,24 @@
-head {
-  margin:0 0 ;
+* {
+  margin:0;
+  padding:0;
 }
 
-li {
+
+.member-container li {
   height: 450px;
-  width: 450px;
+  width: 400px;
   list-style: none;
   /* display: inline-flex; */
   float:left;
-  background-color: beige;
-  margin:5px;
+  /* background-color: beige; */
+  margin:10px;
 }
 
-li a {
+.memver-container li a {
   display:block;
 }
 
-ul {
+.member-container ul {
   flex-wrap:wrap;
 }
 
@@ -26,7 +28,62 @@ ul {
   width:8px;
 }
 
-li img {
+.member-container img {
   height:250px;
   width:400px;
 }
+
+
+
+.member-container > p {
+  border-bottom:1px solid;
+  font-size: 17px;
+  width: 70px;
+  
+}
+
+/*【ヘッダーの設定】ここから------------------------------------- */
+
+.header-right  li {
+  list-style: none;
+  float:left;
+  margin-right:60px;
+  font-size:20px;
+  /* display:inline-block; */
+}
+
+.header-right li:hover {
+  background-color:white;
+}
+
+.header-right {
+  float: right;
+}
+
+/* .header-left {
+  float:left;
+  padding-top:18px;
+  padding-left:5px;
+}
+ */
+
+.header-container {
+  height:65px;
+  width:auto;
+  margin-bottom:20px;
+  /* 作業時のみgrayにします */
+  background-color:gray;
+  /* background-color:white; */
+}
+
+/*【ヘッダーの設定】ここまで --------------------------------------*/
+
+
+/* 【フッターの設定】ここから------------------------------------------ */
+
+footer {
+  display: block;
+  text-align: center;
+}
+
+/* 【フッターの設定】ここまで------------------------------------------ */
