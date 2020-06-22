@@ -3,86 +3,118 @@
   padding:0;
 }
 
-
-.member-container li {
-  height: 450px;
-  width: 400px;
-  list-style: none;
-  /* display: inline-flex; */
-  float:left;
-  /* background-color: beige; */
-  margin:10px;
-}
-
-.memver-container li a {
-  display:block;
-}
-
-.member-container ul {
-  flex-wrap:wrap;
-}
-
-.prf-bar {
-  background-color: skyblue;
-  height:1px;
-  width:8px;
-}
-
-.member-container img {
-  height:250px;
-  width:400px;
-}
-
-
-
-.member-container > p {
-  border-bottom:1px solid;
-  font-size: 17px;
-  width: 70px;
-  
+html body {
+  width:100%;
 }
 
 /*【ヘッダーの設定】ここから------------------------------------- */
+
+
+header {
+  height:65px;
+  background-color:rgb(199,199,199);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom:20px;
+}
+
+.member-container h2 {
+  margin-left:7px;
+}
+
+.member-container h5 {
+  margin-left:7px;
+  font-weight:normal;
+}
+
+.header-left {
+  float:left;
+}
 
 .header-right  li {
   list-style: none;
   float:left;
   margin-right:60px;
   font-size:20px;
-  /* display:inline-block; */
 }
 
-.header-right li:hover {
-  background-color:white;
+.header-right a {
+  text-decoration: none;
+  display:block;
+  line-height:65px;
+  padding:0 5px;
+  color:black;
+}
+
+.header-right a:hover {
+  color:white;
+  transition: all 1s;
 }
 
 .header-right {
   float: right;
 }
 
-/* .header-left {
-  float:left;
-  padding-top:18px;
-  padding-left:5px;
-}
- */
-
-.header-container {
-  height:65px;
-  width:auto;
-  margin-bottom:20px;
-  /* 作業時のみgrayにします */
-  background-color:gray;
-  /* background-color:white; */
+.header-logo {
+  margin-left:10px;
+  margin-top:3px;
 }
 
 /*【ヘッダーの設定】ここまで --------------------------------------*/
 
 
+
+/* 【ボディの設定】ここから -----------------------------------*/
+
+main {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.box {
+  width: calc(30%);
+  /* ↓設定次第では不要かも？？ */
+  height:430px;
+  /* ↑設定次第では不要かも？ */
+  margin:15px;
+  padding:8px;
+  box-shadow: 0 0 3px #aaa;
+  position: relative;
+}
+
+
+.box > img {
+  height:280px;
+  width:100%;
+}
+
+.pad > img {
+  height:45px;
+  width:45px;
+  position: absolute;
+  top:295px;
+  left:380px;
+}
+.member-container h2 {
+  margin-left:15px;
+}
+
+.member-container h5 {
+  margin-left:15px;
+}
+
+.since {
+  border-bottom: 1px solid gray;
+  margin-bottom:3px;
+}
+
+/* 【ボディの設定】ここまで -----------------------------------------*/
+
+
+
 /* 【フッターの設定】ここから------------------------------------------ */
 
 footer {
-  display: block;
+  margin-top:30px;
   text-align: center;
 }
 
