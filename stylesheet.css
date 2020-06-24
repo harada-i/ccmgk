@@ -1,6 +1,7 @@
 * {
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
 
 html body {
@@ -28,6 +29,10 @@ header {
 
 .header-left {
   float:left;
+}
+
+.header-left > a {
+  display:block;
 }
 
 .header-right  li {
@@ -73,7 +78,7 @@ main {
 .box {
   width: calc(30%);
   /* ↓設定次第では不要かも？？ */
-  height:430px;
+  /* height:430px; */
   /* ↑設定次第では不要かも？ */
   margin:15px;
   padding:8px;
@@ -91,21 +96,22 @@ main {
   height:45px;
   width:45px;
   position: absolute;
-  top:295px;
-  left:380px;
+  margin-left:80%;
 }
+
 .member-container h2 {
-  margin-left:15px;
+  margin-left:17px;
 }
 
 .member-container h5 {
-  margin-left:15px;
+  margin-left:17px;
 }
 
 .since {
   border-bottom: 1px solid gray;
-  margin-bottom:3px;
+  margin-bottom:7px;
 }
+
 
 /* 【ボディの設定】ここまで -----------------------------------------*/
 
