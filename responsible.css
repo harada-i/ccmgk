@@ -1,0 +1,13 @@
+@media(max-width:670px) {
+  .box {
+    width:70%;
+    margin:10px auto;
+    padding: 10px 10px;
+  }
+
+  .header-right {
+    display:none;
+  }
+
+
+}
